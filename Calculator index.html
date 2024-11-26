@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="style.css">
+<script src="cal.js"></script>
+<div class="container">
+    <header>
+    <h1 id="title" class="text-center">Tip Calculator</h1>
+    </header>
+    <form action="javascript:void(calc())">
+    <input class="form-control" id="bill" type="text" placeholder="Total Bill">
+    <br>
+    <input class="form-control" id="split" type="text" placeholder="Number of Person">
+    <br>
+    <button class="btn btn-success btn-lg">Calculate</button>
+    </br>
+    </br>
+    <div class="results">
+    <p><strong>Tip:&nbsp; <span id="tip"></span></strong></p>
+    <p><strong>Total:&nbsp; <span id="total"></span></strong></p>
+    <p><strong>Each person pay::&nbsp; <span id="splitTotal"></span></strong></p>
+    </div>
+    </form>
+    <br>
+    </div>
